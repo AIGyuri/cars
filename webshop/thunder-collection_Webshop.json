@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Webshop",
+    "dateExported": "2024-11-27T10:09:22.873Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e27e2da5-e173-400a-9b02-1741617199a9",
+            "colId": "6f7ca97c-435c-4d7a-8a0c-97cb4f654e71",
+            "containerId": "",
+            "name": "Webshop product request",
+            "url": "http://webshop.test/api/webshop",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-27T09:22:11.819Z",
+            "modified": "2024-11-27T09:30:45.689Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "14d120d2-274b-4e47-bcc3-09165c5d2c76",
+            "colId": "6f7ca97c-435c-4d7a-8a0c-97cb4f654e71",
+            "containerId": "",
+            "name": "Webshop product id request ",
+            "url": "http://webshop.test/api/webshop/1",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-11-27T09:39:25.922Z",
+            "modified": "2024-11-27T10:05:29.997Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a45828da-1064-4ce6-8880-a079c3365ff6",
+            "colId": "6f7ca97c-435c-4d7a-8a0c-97cb4f654e71",
+            "containerId": "",
+            "name": "Webshop product update",
+            "url": "http://webshop.test/api/webshop/6",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-11-27T09:30:49.634Z",
+            "modified": "2024-11-27T10:08:56.861Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\r\n  \"name\": \"Pepsi-Cola\",\r\n  \"price\": 590\r\n }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
